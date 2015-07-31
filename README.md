@@ -32,20 +32,20 @@ assertassert.chai.should()
 "foo".should.deep.equal("foo")
 ```
 
-### assert
+### Assert
 
 ```js
 assertassert.assert.deepEqual('foo', 'foo', 'assert library not found')
 ```
 
-### should
+### Should
 
 ```js
 assertassert.should()
 "foo".should.deep.equal("foo")
 ```
 
-### must
+### Must
 
 ```js
 assertassert.must('foo').to.be('string')
