@@ -4,5 +4,6 @@ module.exports = {
   },
   chai: require('chai'),
   assert: require('assert'),
-  Code: require('code')
+  Code: require('code'),
+  must: require('must')
 }
