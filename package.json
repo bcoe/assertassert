@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/bcoe/assertassert#readme",
   "devDependencies": {
+    "coveralls": "^2.11.3",
     "mocha": "^2.2.5",
     "nyc": "^3.0.1",
     "standard": "^4.5.4"
