@@ -23,7 +23,7 @@ describe('assertassert', function () {
   })
 
   it('provides the must assertion library', function () {
-    assertassert.must('foo').to.be('string')
+    assertassert.must('foo').to.be('foo')
   })
 
   it('provides the should assertion library', function () {
