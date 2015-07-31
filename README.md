@@ -5,12 +5,12 @@
 [![NPM version][npm-image]][npm-url]
 [![js-standard-style][standard-image]][standard-url]
 
-assertassert, for when you can't decide on a testing framework.
+assertassert, for when you can't decide on an assertion library.
 
 ## The API
 
 assertassert's API combines the cutting edge in JavaScript TDD, BDD, and TBD
-testing frameworks allowing you to use the best features from each:
+assertion libraries allowing you to use the best features from each:
 
 ### Code
 
