@@ -3,11 +3,11 @@
 var assertassert = require('../')
 
 describe('assertassert', function () {
-  it('provides the code testing framework', function () {
+  it('provides the code assertion library', function () {
     assertassert.Code.expect({foo: 'bar'}).to.deep.equal({foo: 'bar'})
   })
 
-  it('provides the assert testing framework', function () {
+  it('provides the assert assertion library', function () {
     assertassert.assert.deepEqual('foo', 'foo', 'assert library not found')
   })
 
@@ -22,7 +22,11 @@ describe('assertassert', function () {
     })
   })
 
-  it('provides the should testing framework', function () {
+  it('provides the must assertion library', function () {
+    assertassert.must('foo').to.be('foo')
+  })
+
+  it('provides the should assertion library', function () {
     assertassert.should()
     'foo'.should.equal('foo')
   })

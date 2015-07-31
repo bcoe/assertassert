@@ -32,17 +32,23 @@ assertassert.chai.should()
 "foo".should.deep.equal("foo")
 ```
 
-### assert
+### Assert
 
 ```js
 assertassert.assert.deepEqual('foo', 'foo', 'assert library not found')
 ```
 
-### should
+### Should
 
 ```js
 assertassert.should()
 "foo".should.deep.equal("foo")
+```
+
+### Must
+
+```js
+assertassert.must('foo').to.be('string')
 ```
 
 That's all there is to it. assertassert is guranteed to be the last
