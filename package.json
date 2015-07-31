@@ -1,6 +1,6 @@
 {
   "name": "assertassert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "assertassert, for when your company can't decide on a testing framework",
   "main": "index.js",
   "scripts": {
