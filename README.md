@@ -25,7 +25,7 @@ assertassert.Code.expect({foo: 'bar'}).to.deep.equal({foo: 'bar'})
 assertassert.chai.expect('foo').to.deep.equal('foo')
 ```
 
-or override the default Object prototype:
+or override the default object prototype:
 
 ```js
 assertassert.chai.should()
@@ -50,7 +50,7 @@ assertion library you'll ever need.
 
 ## Contributing
 
-Have I missed your pulling in your favorite framework? please [open an issue](https://github.com/bcoe/assertassert/issues/new).
+Have I missed your pulling in your favorite assertion framework? found a bug? please [open an issue](https://github.com/bcoe/assertassert/issues/new).
 
 ## License
 
