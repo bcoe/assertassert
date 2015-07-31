@@ -45,6 +45,12 @@ assertassert.should()
 "foo".should.deep.equal("foo")
 ```
 
+### must
+
+```js
+assertassert.must('foo').to.be('string')
+```
+
 That's all there is to it. assertassert is guranteed to be the last
 assertion library you'll ever need.
 
