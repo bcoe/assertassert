@@ -1,0 +1,37 @@
+{
+  "name": "assertassert",
+  "version": "1.0.0",
+  "description": "assertassert, for when your company can't decide on a testing framework",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "nyc mocha test",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcoe/assertassert.git"
+  },
+  "keywords": [
+    "assert",
+    "library",
+    "mocha",
+    "chai",
+    "should"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/assertassert/issues"
+  },
+  "homepage": "https://github.com/bcoe/assertassert#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "standard": "^4.5.4"
+  },
+  "dependencies": {
+    "chai": "^3.2.0",
+    "code": "^1.5.0",
+    "should": "^7.0.2"
+  }
+}
